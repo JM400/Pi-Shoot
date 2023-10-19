@@ -1,4 +1,4 @@
-version = "v1.1 May/31/2023"
+version = "v1.0.0 May/31/2023"
 
 # Import modules
 from time import strftime
