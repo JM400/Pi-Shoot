@@ -1,4 +1,4 @@
-version = "v1.1 Jun/12/2023"
+version = "v1.0.0 Jun/12/2023"
 
 
 # Import modules
