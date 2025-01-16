@@ -1,5 +1,5 @@
 # Pi Shoot
-Pi Shoot is a Python GUI camera application for Raspberry Pi, with a SSH client for accessing the camera remotely.
+Pi Shoot is a Python Based GUI camera application for Raspberry Pi, with a SSH client for remotely controlling the camera. Please look through the list of supported camera modules under the hardware section first, to make sure your camera module is compatible. 
 <br>
 <br>
 
@@ -31,7 +31,14 @@ sudo cp 'Pi Shoot.desktop' /etc/xdg/autostart/'Pi Shoot.desktop'
 Connect a button to GND and GPIO pin 26, no pull up resistor is needed an internal one is already used.
 ### Flash
 Pi Shoot sends a high signal on GPIO pin 12 if flash is selected. A high power LED should not be connected directly to a GPIO pin. Instead a LED module that uses a switch should be used, or a circuit can be built with a transistor to control the LED.
+### Compatible Camera Modules and Image Sensors
+* 
+* 
+* 
+*Camera module or image sensor is only partially supported, and might not have a correct profile for it's supported settings.
 <br>
 <br>
 
 # Pi Shoot SSH Client Install Commands
+## Debian based Linux distros
+## Windows
